@@ -1,0 +1,51 @@
+:root {
+    --accent-color: rgb(60, 60, 60);
+    --bg-color: rgb(44, 44, 44);
+    --text-color: rgb(117, 117, 117);
+}
+
+body {
+    display: flex;
+    background-color: var(--bg-color);
+}
+
+.chooseNote {
+    color: var(--text-color);
+    cursor: pointer;
+    transition: border .3s ease-in-out;
+}
+
+.chooseNote:hover {
+    border: 5px solid var(--text-color);
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    width: 70vw;
+}
+
+.noteList {
+    margin-right: 5px;
+    background-color: var(--accent-color);
+    width: 30vw;
+    height: fit-content;
+}
+
+.noteText {
+    background-color: var(--accent-color);
+    height: 80vh;
+    margin-top: 5px;
+    border: none;
+    resize: none;
+}
+
+.noteTitle {
+    background-color: var(--accent-color);
+    height: 10vh;
+    margin-bottom: 5px;
+    font-size: 8vh;
+    border: none;
+    resize: none;
+}
