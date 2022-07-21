@@ -1,2 +1,3 @@
 # CNotes
-An app for taking notes!
+An app build on Tauri for taking notes!
+
