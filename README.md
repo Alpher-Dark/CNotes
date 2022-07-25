@@ -5,4 +5,4 @@ An app build on [Tauri](https://www.tauri.app) for taking notes!
 
 The settings menu is yet to be used, but support for customizability will come.
 
-Note ;) : The notes are stored under C:/Users/<username>/AppData/Roaming/com.m0ke0.CNotes
+Note ;) : The notes are stored under C:/Users/username/AppData/Roaming/com.m0ke0.CNotes
